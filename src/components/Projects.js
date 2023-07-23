@@ -1,8 +1,12 @@
-import {Container, Row, Col, Tab, Nav} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import {ProjectCard} from "./ProjectCard";
 import laravelBuilderProjectThumb from "../assets/img/portfolio-thumbnail/laravel-builder-project.png";
 import cloneOfPostmanThumb from "../assets/img/portfolio-thumbnail/clone-of-postman.png";
-import projImg3 from "../assets/img/project-img3.png";
+import shopLoverThumb from "../assets/img/portfolio-thumbnail/shoplover.png";
+import liveExamThumb from "../assets/img/portfolio-thumbnail/live-exam.png";
+import kiloByteThumb from "../assets/img/portfolio-thumbnail/kilobyte-slider.png";
+import bijoyBanglaThumb from "../assets/img/portfolio-thumbnail/bijoy-bangla-typing-test.png";
+import calThumb from "../assets/img/portfolio-thumbnail/calculator.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,28 +27,34 @@ export const Projects = () => {
             link: "http://sapi.shoplover.com/",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "https://google.com",
+            title: "Shoplover",
+            description: "Shoplover is a Multi-Vendor E-Commerce website of US-Bangla Group. Currently we are developing this website in various platform.",
+            imgUrl: shopLoverThumb,
+            link: "https://shoplover.com",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: laravelBuilderProjectThumb,
-            link: "https://google.com",
+            title: "Live Exam Bd",
+            description: "Live Exam Bd is a educational website where student can participate various kind of free and paid exam. Full Backend admin and Frontend made by me",
+            imgUrl: liveExamThumb,
+            link: "https://liveexambd-bneml.run-ap-south1.goorm.io/",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: cloneOfPostmanThumb,
-            link: "https://google.com",
+            title: "Bijoy Bangla Typing Test",
+            description: "Bandladesh first ever created Bijoy Bangla Typing Test application with javascript. Fully Developed by me",
+            imgUrl: bijoyBanglaThumb,
+            link: "http://bdtypeing.rf.gd/",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: "https://google.com",
+            title: "KiloByte Slider",
+            description: "A simple Vanilla Javascript Plugin By Me",
+            imgUrl: kiloByteThumb,
+            link: "http://kundefine.000.pe/",
+        },
+        {
+            title: "Calculator",
+            description: "A Simple Calculator developed by me. Design was inspire by android mobile calculator",
+            imgUrl: calThumb,
+            link: "http://calculatorb.rf.gd/",
         },
     ];
 
